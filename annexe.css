@@ -1,0 +1,92 @@
+body{background-color: white}
+
+.x {
+	width: 1000px;
+	height: 570px;
+	background-color: gray;
+	border-radius: 20px;
+	position: relative; left: 100px
+}
+
+.y {
+	width: 1000px;
+	height: 600px;
+	background-color: rgb(52, 77, 230);
+	border-radius: 20px;
+	position: relative; left: 100px
+}
+
+.i {
+	color: #000000; 
+  text-shadow: 0 4px 8px rgba(0, 255, 255, 0.5), -4px 0 8px rgba(255, 0, 0, 0.5);
+  font-family: "italic", sans-serif; 
+  font-size: 60px
+  
+}
+
+.container {
+	position: relative;
+	top: 57px;
+	left: 20px;
+	display: flex;
+	align-items: flex-start; /* Align items at the top */
+}
+
+.image {
+	width: 250px;
+	margin-right: 55px; 
+	
+	margin-top: -10px; border-radius: 30px ;border-style: dotted;box-shadow: 3px 5px 8px
+}
+
+.text {
+	flex: 1;
+	margin-top: -55px; /* Adjust margin as needed */
+	margin-left: 145px; /* Adjust margin as needed */
+}
+
+p {
+	font-size: 34px;
+}
+
+.s {
+	width: 50px;
+	float: right;
+}
+
+
+.bu{background-color: gray ;
+ height: 52px ;
+  width: 80px ; 
+  border-radius: 45px ;
+   position: relative;
+   bottom: -40px ; 
+   box-shadow: 3px 5px 8px ;
+    left: 100px ;
+    border-style: outset;
+
+    color: cyan }
+
+ .bu:hover{background-color: green ;
+ height: 62px ;
+  width: 90px ; 
+  border-radius: 45px ;
+   position: relative;
+   bottom: -40px ; 
+   box-shadow: 3px 5px 8px ;
+    left: 100px ;
+    border-style: outset;
+
+    color: cyan }
+
+ .bu:active{background-color: red ;
+ height: 62px ;
+  width: 90px ; 
+  border-radius: 45px ;
+   position: relative;
+   bottom: -40px ; 
+   box-shadow: 3px 5px 8px ;
+    left: 100px ;
+    border-style: outset;
+
+    color: cyan }
